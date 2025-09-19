@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="PillarLibrary">
+      <UniqueIdentifier>{8d0e3a2e-b9ce-4485-a52c-1594f5865898}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PillarLibrary\Core">
+      <UniqueIdentifier>{da5dba25-dd13-46c7-8c16-b96079292b4b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Singleton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemInterfaces.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderingSystems.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Minigin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PillarLibrary_02\include\Core\UArchetypeRegistry.h">
+      <Filter>PillarLibrary\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="PillarLibrary_02\include\Core\UComponentCompartment.h">
+      <Filter>PillarLibrary\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="PillarLibrary_02\include\Core\UComponentFilter.h">
+      <Filter>PillarLibrary\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="PillarLibrary_02\include\Core\UComponentIterator.h">
+      <Filter>PillarLibrary\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="PillarLibrary_02\include\Core\UComponentIteratorManager.h">
+      <Filter>PillarLibrary\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="PillarLibrary_02\include\Core\UComponentIteratorRegistry.h">
+      <Filter>PillarLibrary\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="PillarLibrary_02\include\Core\UEntityCreation.h">
+      <Filter>PillarLibrary\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="PillarLibrary_02\include\Core\UEntityHandle.h">
+      <Filter>PillarLibrary\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="PillarLibrary_02\include\Core\UEntityHandleContainer.h">
+      <Filter>PillarLibrary\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="PillarLibrary_02\include\Core\UEntityHandleRegistry.h">
+      <Filter>PillarLibrary\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="PillarLibrary_02\include\Core\UInternalFilter.h">
+      <Filter>PillarLibrary\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="PillarLibrary_02\include\Core\URegistry.h">
+      <Filter>PillarLibrary\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="PillarLibrary_02\include\Core\URegistrySingleton.h">
+      <Filter>PillarLibrary\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="PillarLibrary_02\include\Core\URegistrySingletonArray.h">
+      <Filter>PillarLibrary\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="PillarLibrary_02\include\Core\IComponentHandleManager.h">
+      <Filter>PillarLibrary\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="PillarLibrary_02\include\Core\IComponentIterator.h">
+      <Filter>PillarLibrary\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="PillarLibrary_02\include\Core\FEntity.h">
+      <Filter>PillarLibrary\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="PillarLibrary_02\include\InternalIncludes.h">
+      <Filter>PillarLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FPSSystems.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rigidbody.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StateSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Movement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Commands.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Spline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TActivatableFlatMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StatSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DeactivationSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleAudio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceLocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveMovement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MathTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementActionSequence.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PillarLibrary_02\source\Core\UArchetypeRegistry.cpp">
+      <Filter>PillarLibrary\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="PillarLibrary_02\source\Core\UComponentFilter.cpp">
+      <Filter>PillarLibrary\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="PillarLibrary_02\source\Core\UComponentIteratorRegistry.cpp">
+      <Filter>PillarLibrary\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="PillarLibrary_02\source\Core\UEntityCreation.cpp">
+      <Filter>PillarLibrary\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="PillarLibrary_02\source\Core\UEntityHandle.cpp">
+      <Filter>PillarLibrary\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="PillarLibrary_02\source\Core\UEntityHandleContainer.cpp">
+      <Filter>PillarLibrary\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="PillarLibrary_02\source\Core\UEntityHandleRegistry.cpp">
+      <Filter>PillarLibrary\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="PillarLibrary_02\source\Core\UInternalFilter.cpp">
+      <Filter>PillarLibrary\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="PillarLibrary_02\source\Core\URegistry.cpp">
+      <Filter>PillarLibrary\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FPSSystems.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Minigin.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderingSystems.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rigidbody.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StateSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EventSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Movement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Spline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleAudio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WaveMovement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MathTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MovementActionSequence.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
