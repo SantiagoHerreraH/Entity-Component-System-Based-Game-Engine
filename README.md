@@ -1,4 +1,60 @@
-# Minigin
+
+# About My Project
+
+I completely reworked Minigin, whose features are described below, and added the following features:
+
+# Game Engine Features
+
+
+- A row based Entity Component Framework (PillarLibrary_02) that lets you
+	- Create id based entities and assign different components to them through a Registry
+	- reduce cache misses by maintaining memory contiguity through keeping component matrices (not arrays because of archetype separation)
+	- Filter through entity Archetypes and make entity component queries based on components they have or don't have
+	- Automatically registers new components
+	- Maintain memory contiguity upon entity deactivation through memory swapping
+	- Iterators that automatically update upon internal memory movement
+	- A registry singleton system
+- A Scene Manager system that lets manage scenes and group systems execution
+- A scene graph that lets you control spatial object transformations (Transform class)
+		- Lets you control rotation, translation, scale
+		- Lets you parent and unparent 
+		- lets you control which transformation variables you want the Transform to be affected by its parent transformation
+			- for instance, have rotation and translation be affected by scene graph, but not scale
+- A Game Loop including
+	- Update
+	- FixedUpdate
+	- Render
+	- Input tracking
+	- Time tracking
+- Physics systems
+	- 2d triggering systems for nonsolid rectangles
+	- 2d Rigidbody systems
+	- Movement system for physics interaction
+- A State Controller that manages state changes
+- A variadic template Event System with instantaneous triggering where you can subscribe std::functions
+- A templated Stat Controller with various events that are triggered upon stat modification
+- A player controller that receives input from keyboard and gamepad, where you can link Commands to input (through ICommand interface)
+- Different rendering systems that include
+	- SpriteSheet: for managing grid like textures
+	- Animation: animating textures and controlling framerate
+	- Simple particle system: where you can control different variables for movable particles
+	- Improved ResourceManager for limited loading of resources such as textures
+- A ServiceLocator for interacting with and changing different services at runtime depending on needs
+- A TimerSystem for controlling execution through various Events (OnStart, OnUpdate, OnEnd, etc...) in the time of your choice
+- Simple but effective math classes for 
+	- Getting random value between range
+	- Controlling sine and cosine movement with x direction and time
+- A MovementActionSequence system that lets you
+	- chain actions one after another and set their duration to be conditional or time dependent
+	- Skip action execution through conditions
+
+
+
+# GitHub repo Link
+
+https://github.com/SantiagoHerreraH/Entity-Component-System-Based-Game-Engine.git
+
+# About the Base Minigin
 
 Minigin is a very small project using [SDL2](https://www.libsdl.org/) and [glm](https://github.com/g-truc/glm) for 2D c++ game projects. It is in no way a game engine, only a barebone start project where everything sdl related has been set up. It contains glm for vector math, to aleviate the need to write custom vector and matrix classes.
 
