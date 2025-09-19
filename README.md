@@ -40,7 +40,7 @@ I completely reworked Minigin, whose features are described below, and added the
 	- Simple particle system: where you can control different variables for movable particles
 	- Improved ResourceManager for limited loading of resources such as textures
 - A ServiceLocator for interacting with and changing different services at runtime depending on needs
-- A TimerSystem for controlling execution through various Events (OnStart, OnUpdate, OnEnd, etc...) in the time of your choice
+- A TimerSystem for controlling execution through various Events (OnStart, OnUpdate, OnEnd, etc...) in the time of your choice. And that stays lean by keeping active timers contiguous in memory.
 - Simple but effective math classes for 
 	- Getting random value between range
 	- Controlling sine and cosine movement with x direction and time
