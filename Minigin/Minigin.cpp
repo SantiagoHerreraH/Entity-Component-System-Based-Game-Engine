@@ -17,6 +17,7 @@
 #include "ServiceLocator.h"
 #include <memory>
 #include "FileManager.h"
+#include "Settings.h"
 
 SDL_Window* g_window{};
 
@@ -58,7 +59,7 @@ dae::Minigin::Minigin(const std::string &dataPath)
 	}
 	
 	g_window = SDL_CreateWindow(
-		"Programming 4 assignment",
+		"Entity Component System Game Engine",
 		SDL_WINDOWPOS_CENTERED,
 		SDL_WINDOWPOS_CENTERED,
 		g_WindowWidth,

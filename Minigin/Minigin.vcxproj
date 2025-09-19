@@ -193,6 +193,7 @@
     <ClInclude Include="Random.hpp" />
     <ClInclude Include="Rect.h" />
     <ClInclude Include="ServiceLocator.h" />
+    <ClInclude Include="Settings.h" />
     <ClInclude Include="WaveMovement.h" />
     <ClInclude Include="Spline.h" />
     <ClInclude Include="StatSystem.h" />
